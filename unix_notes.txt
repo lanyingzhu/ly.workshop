@@ -1,0 +1,1000 @@
+   75  cd
+   76  cd Documents
+   77  ls
+   78  cd /users/zengjun
+   79  ls
+   80  cd../../
+   81  cd
+   82  cd ../../
+   83  ls
+   84  cd ..
+   85  cd ../../
+   86  cd /etc
+   87  ls
+   88  cd /bin
+   89  ls
+   90  cd
+   91  cd.
+   92  cd .
+   93  cd ../
+   94  ls
+   95  cd ../../
+   96  ls
+   97  pwd
+   98  file etc
+   99  file home
+  100  file cores
+  101  cd
+  102  ls
+  103  file hello
+  104  file hello/
+  105  hello
+  106  ls hello
+  107  file hello/word
+  108  ls document
+  109  ls douments
+  110  ls documents
+  111  file document/WFG
+  112  file Documents/WFG
+  113  file Documents/hello/world
+  114  file Documents/hello 
+  115  mkdir Repro/hi hi
+  116  ls
+  117  mkdir Repro/'hi hi'
+  118  ls
+  119  ls hi
+  120  ls
+  121  cd hi
+  122  ls
+  123  rmdir hi
+  124  cd
+  125  rmdir hi
+  126  ls
+  127  mkdir holiday\ photos
+  128  ls
+  129  mkdir Repro/holiday\ photos
+  130  ls
+  131  ls repro
+  132  de holiday photo
+  133  cd holiday photos
+  134  cd holiday\photos
+  135  cd holida\ photos
+  136  cd holiday\ photos
+  137  cd Repro/holiday\ photos
+  138  ls
+  139  cd
+  140  ls Repro
+  141  rmdir Repro/holiday\ photos
+  142  ls Repro
+  143   rmdir hi
+  144  touch mimi
+  145  ls
+  146  man 
+  147  man k
+  148  k
+  149  man ls
+  150  rm mimi
+  151  ls
+  152  man -a
+  153  man -A
+  154  ls -a
+  155  file Repro
+  156  file Repro/holiday\ photos
+  157  ls Repro
+  158  file Repro/project\ directory
+  159  fila -a
+  160  file -a
+  161  ls -a
+  162  man -k
+  163  man -k rm
+  164  ls
+  165  ls /etc
+  166  ls -l /etc
+  167  ls ../../../
+  168  ls ../
+  169  ls ../../
+  170  ls /etc
+  171  ls /var/log
+  172  ls /usr/bin/
+  173  pwd
+  174  cd /etc/
+  175  ls
+  176  ls ppp
+  177  file ppp
+  178  file ppp/
+  179  file p
+  180  file p
+  181  file cd
+  182  cd .
+  183  cd ~/
+  184  file pf
+  185  file pf.anchors/
+  186  cd etc
+  187  cd etc/
+  188  cd etc
+  189  cd /etc
+  190  file pf.conf
+  191  cd /bin
+  192  pwd
+  193  cd /etc
+  194  pwd
+  195  cd
+  196  pwd
+  197  ls
+  198  ls -a
+  199  cd /etc
+  200  cd ./
+  201  cd ../
+  202  ls
+  203  cd ../
+  204  pwd
+  205  cd ../../
+  206  cd
+  207  pwd
+  208  pwd
+  209  ls
+  210  cd ../
+  211  cd ../
+  212  ls
+  213  cd /users/zhulanying/
+  214  ls
+  215  pwd
+  216  cd
+  217  ls ../
+  218  cd ../
+  219  ls
+  220  pwd
+  221  cd ../
+  222  ls
+  223  pwd
+  224  cd ../
+  225  pwd
+  226  ls ~/Documents
+  227  cd
+  228  cd ../../
+  229  ls
+  230  ls -a
+  231  la --all
+  232  ls --all
+  233  ls -alh
+  234  ls --all
+  235  man -k rm
+  236  man rm
+  237  cd
+  238  mkdir -p bobo/boby
+  239  ls
+  240  ls bobo
+  241  rmdir bobo
+  242  rmdir bobo/boby
+  243  ls
+  244  ls bobo
+  245  rmdir bobo/
+  246  ls
+  247  mkdir bobo/mimi
+  248  mkdir -v bobo/mimi
+  249  mkdir dir1
+  250  mkdir -v dir2
+  251  ls -lv
+  252  ls -v
+  253  ls
+  254  rm -v dir*
+  255  ls 
+  256  rmdir -v dir*
+  257  rm -xv dir*
+  258  rm -rv dir*
+  259  ls
+  260  mkdir dir1/dir2/dir3/dir4
+  261  mkdir -p dir1/dir2/dir3/dir4
+  262  mkdir -pv test1/test2/test3/test4
+  263  ls
+  264  ls test1/
+  265  mdir -p -v test3/test4/test5
+  266  mkdir -p -v test3/test4/test5
+  267  mkdir -v test3
+  268  mkdir -v test4
+  269  mkdir -v test4/test5/test6
+  270  mkdir -v -p test4/test5/test6
+  271  ls 
+  272  rm -rv test*
+  273  ls
+  274  ls dir1/
+  275  rm -r dir1
+  276  dir
+  277  ls
+  278  file Pictures
+  279  ls -A
+  280  ls -a
+  281  cd ../
+  282  pwd
+  283  ls
+  284  cd ../
+  285  pwd
+  286  ls
+  287  cd Applications/
+  288  ls
+  289  cd ../
+  290  ls
+  291  ls /bin/
+  292  ls /usr/bin/
+  293  ls /
+  294  ls /Applications/
+  295  ls /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl -h
+  296  ls /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl --help
+  297  ls /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl cd 
+  298  ls /
+  299  find /Library/ -name "workflow"
+  300  find /Library/ -name "sublime"
+  301  ls Library/Workflows/Applications/Folder\ Actions/
+  302  pwd
+  303  ls ~/Library/Services/
+  304  rm -frv ~/Library/Services/Sublime.workflow/
+  305  rm -rv ~/Library/Services/Open-In-Sublime.workflow/
+  306  ln -s 
+  307  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /bin/sublime
+  308  sudo ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /bin/sublime
+  309  sudo ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /bin/sublime
+  310  su
+  311  exit
+  312  ls /bin/sublime -l
+  313  ls -l | grep sublime
+  314  ls -l /bin/ | grep sublime
+  315  sublime 
+  316  cd Repro
+  317  ls
+  318  sublime hi
+  319  ll -l
+  320  ls -l
+  321  sublime Hello\,\ world\! 
+  322  cd 
+  323  sublime .lesshst 
+  324  cd Repro/
+  325  ls -l
+  326  ls
+  327  ln -s Hello\,\ world\! a
+  328  ls -l
+  329  cat a
+  330  cat Hello\,\ world\! 
+  331  unlink a
+  332  ls -l
+  333  ls /bin/
+  334  ls /usr/bin/
+  335  ls /bin/sublime 
+  336  unlink /bin/sublime 
+  337  sudo unlink /bin/sublime 
+  338  sublime
+  339  ls
+  340  sublime Hello\,\ world\! 
+  341  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /bin/sublime
+  342  sudo ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /bin/sublime
+  343  sublime 
+  344  echo $PATH
+  345  sudo echo $PATH
+  346  sudo echo $PATH
+  347  ls 
+  348  ls 
+  349  ls 
+  350  history 
+  351  sublime 
+  352  ls
+  353  cd ..
+  354  ls
+  355  sublime Repro/
+  356  sudo ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl 
+  357  sublime
+  358  sublime
+  359  sublime
+  360  ls
+  361  cd Projects/
+  362  cd guessing_game/
+  363  ls
+  364  xcode
+  365  git
+  366  git
+  367  git
+  368  git
+  369  git status
+  370  git diff
+  371  git diff readme.txt
+  372  cd /projects
+  373  l 
+  374  ls
+  375  ls ~/projects
+  376  cd projects
+  377  pwd
+  378  cd donut_shop
+  379  pwd
+  380  git add dunut_franchise.html
+  381  cd
+  382  git status
+  383  git add donut_franchise.html
+  384  pwd
+  385  cd /projects/donut_shop
+  386  pwd
+  387  cd /projects
+  388  cd projects
+  389  cd donut_shop
+  390  pwd
+  391  git init
+  392  git add donut_franchise.html
+  393  git status
+  394  git commit-m "my first donut franchise version"
+  395  sudo git status
+  396  git commit-m "my first donut franchise version"
+  397  git init
+  398  sudo git status
+  399  git init
+  400  git add donut_franchise.html
+  401  git status
+  402  git commit -m "my first donut_franchise version"
+  403  pwd
+  404  pwd
+  405  git add donut_franchis.html
+  406   git add donut_franchise.html
+  407  git status
+  408  git add
+  409  git add donut_franchise.html
+  410  git commit
+  411  git status
+  412  git add donutshop.*
+  413  git status
+  414  git commit -m "use jQuery to create the table to present the donutshop"
+  415  git status
+  416  git log
+  417  ls
+  418  git push origin master
+  419  git status
+  420  git add donutshop.*
+  421  git status
+  422  git commit -m "Fill HTML data directly from donut shop code by using jQuery,create a menu list of donut shop location, add fades and animation to perk thing up." 
+  423  git status
+  424  git push origin master.
+  425  git push origin master
+  426  ping github.com
+  427  ping google.com
+  428  git ping github.com
+  429  ping github.com
+  430  ping github.com
+  431  git push origin master
+  432  ping github.com
+  433  git push origin master
+  434  git status
+  435  git status
+  436  cd project
+  437  cd projects
+  438  git status
+  439  cd
+  440  cd projects
+  441  ls
+  442  cd donut_shop/
+  443  git status
+  444  git shop.*
+  445  git status
+  446  git add shop.*
+  447  git status
+  448  git commit -m "Create a form to accept input and give out a report of donutshop including donutshop's information for that location."
+  449  git status
+  450  git push
+  451  git status
+  452  ls
+  453  git status
+  454  git add shop.html
+  455  git status
+  456  git commit -m "changed the position of <script> to before the closing </body> tag."
+  457  git satus
+  458  git status
+  459  git push
+  460  sublime 
+  461  git --version
+  462  git
+  463  ls
+  464  export CLICOLOR=1
+  465  ls
+  466  export LSCOLORS=GxFxCxDxBxegedabagaced
+  467  ls
+  468  vi ~/.bash
+  469  export LSICOLOR=0
+  470  ls
+  471  export CLICOLOR=0
+  472  ls
+  473  unset CLICOLOR
+  474  ls
+  475  ls -a
+  476  cat .bash
+  477  mv .bash .bashrc
+  478  source ./.bashrc
+  479  ls
+  480  ls
+  481  ls
+  482  cat .bashrc
+  483  exit
+  484  ls
+  485  source ./.bashrc 
+  486  ls
+  487  ls lanying/lanying 
+  488  ls Repro/project\ directory/project1 
+  489  ls Repro/project\ directory/ -l
+  490  ls -l Repro/project\ directory/ 
+  491  ls
+  492  source ./.bashrc 
+  493  mv .bashrc .bash_profile
+  494  cat .bash_profile 
+  495  fjlds;d
+  496  ls -alt
+  497  ls ./bin
+  498  ls /bin
+  499  cat .bash_profile
+  500  ls /bin
+  501  ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/install/master/install)"
+  502  brew doctor
+  503  brew install fish
+  504  chsh -s /usr/local/bin/fish
+  505  subl
+  506  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+  507  subl
+  508  subl ~/.config/fish/config.fish
+  509  subl ~/.config/fish/config.fish
+  510  brew install git
+  511  git --version
+  512  git config --global user.name Lanying Zhu
+  513  git config --global user.email lanying.zhu.01@gmail.com
+  514  curl -fsSL http://git.io/7UHtNA | sh
+  515  curl -fsSL http://git.io/QxUaOQ | sh
+  516  sublime
+  517  pwd
+  518  ls
+  519  pwd
+  520  cd ~/downloads/
+  521  cd ~/d
+  522  ls -t
+  523  cd ~/downloads?
+  524  cd ~/Downloads/
+  525  pwd
+  526  ls _t
+  527  ls -t
+  528  ls -rt
+  529  ls -rlt
+  530  ls -a
+  531  ls -alt
+  532  man ls
+  533  cd
+  534  cd
+  535  ls
+  536  cd
+  537  ls
+  538  ls -alt
+  539  ls rlt
+  540  ls -rlt
+  541  ls -r
+  542  ls -l
+  543  cd d*
+  544  cd d *
+  545  ls -d
+  546  cd D
+  547  ..
+  548  cd public
+  549  ls
+  550  cd ..
+  551  cd ../..
+  552  ls
+  553  pwd
+  554  cd
+  555  cd..
+  556  cd ..
+  557  pwd
+  558  ls
+  559  cd
+  560  cd ../Download/
+  561  cd
+  562  cd ..
+  563  ls ~
+  564  cd .
+  565  cd ..
+  566  ls
+  567  ls alt
+  568  ls -alt
+  569  cd ..
+  570  cd ~
+  571  history
+  572  history | less
+  573  cd history
+  574  history > moving_around.txt
+   83  ls
+   84  cd ..
+   85  cd ../../
+   86  cd /etc
+   87  ls
+   88  cd /bin
+   89  ls
+   90  cd
+   91  cd.
+   92  cd .
+   93  cd ../
+   94  ls
+   95  cd ../../
+   96  ls
+   97  pwd
+   98  file etc
+   99  file home
+  100  file cores
+  101  cd
+  102  ls
+  103  file hello
+  104  file hello/
+  105  hello
+  106  ls hello
+  107  file hello/word
+  108  ls document
+  109  ls douments
+  110  ls documents
+  111  file document/WFG
+  112  file Documents/WFG
+  113  file Documents/hello/world
+  114  file Documents/hello 
+  115  mkdir Repro/hi hi
+  116  ls
+  117  mkdir Repro/'hi hi'
+  118  ls
+  119  ls hi
+  120  ls
+  121  cd hi
+  122  ls
+  123  rmdir hi
+  124  cd
+  125  rmdir hi
+  126  ls
+  127  mkdir holiday\ photos
+  128  ls
+  129  mkdir Repro/holiday\ photos
+  130  ls
+  131  ls repro
+  132  de holiday photo
+  133  cd holiday photos
+  134  cd holiday\photos
+  135  cd holida\ photos
+  136  cd holiday\ photos
+  137  cd Repro/holiday\ photos
+  138  ls
+  139  cd
+  140  ls Repro
+  141  rmdir Repro/holiday\ photos
+  142  ls Repro
+  143   rmdir hi
+  144  touch mimi
+  145  ls
+  146  man 
+  147  man k
+  148  k
+  149  man ls
+  150  rm mimi
+  151  ls
+  152  man -a
+  153  man -A
+  154  ls -a
+  155  file Repro
+  156  file Repro/holiday\ photos
+  157  ls Repro
+  158  file Repro/project\ directory
+  159  fila -a
+  160  file -a
+  161  ls -a
+  162  man -k
+  163  man -k rm
+  164  ls
+  165  ls /etc
+  166  ls -l /etc
+  167  ls ../../../
+  168  ls ../
+  169  ls ../../
+  170  ls /etc
+  171  ls /var/log
+  172  ls /usr/bin/
+  173  pwd
+  174  cd /etc/
+  175  ls
+  176  ls ppp
+  177  file ppp
+  178  file ppp/
+  179  file p
+  180  file p
+  181  file cd
+  182  cd .
+  183  cd ~/
+  184  file pf
+  185  file pf.anchors/
+  186  cd etc
+  187  cd etc/
+  188  cd etc
+  189  cd /etc
+  190  file pf.conf
+  191  cd /bin
+  192  pwd
+  193  cd /etc
+  194  pwd
+  195  cd
+  196  pwd
+  197  ls
+  198  ls -a
+  199  cd /etc
+  200  cd ./
+  201  cd ../
+  202  ls
+  203  cd ../
+  204  pwd
+  205  cd ../../
+  206  cd
+  207  pwd
+  208  pwd
+  209  ls
+  210  cd ../
+  211  cd ../
+  212  ls
+  213  cd /users/zhulanying/
+  214  ls
+  215  pwd
+  216  cd
+  217  ls ../
+  218  cd ../
+  219  ls
+  220  pwd
+  221  cd ../
+  222  ls
+  223  pwd
+  224  cd ../
+  225  pwd
+  226  ls ~/Documents
+  227  cd
+  228  cd ../../
+  229  ls
+  230  ls -a
+  231  la --all
+  232  ls --all
+  233  ls -alh
+  234  ls --all
+  235  man -k rm
+  236  man rm
+  237  cd
+  238  mkdir -p bobo/boby
+  239  ls
+  240  ls bobo
+  241  rmdir bobo
+  242  rmdir bobo/boby
+  243  ls
+  244  ls bobo
+  245  rmdir bobo/
+  246  ls
+  247  mkdir bobo/mimi
+  248  mkdir -v bobo/mimi
+  249  mkdir dir1
+  250  mkdir -v dir2
+  251  ls -lv
+  252  ls -v
+  253  ls
+  254  rm -v dir*
+  255  ls 
+  256  rmdir -v dir*
+  257  rm -xv dir*
+  258  rm -rv dir*
+  259  ls
+  260  mkdir dir1/dir2/dir3/dir4
+  261  mkdir -p dir1/dir2/dir3/dir4
+  262  mkdir -pv test1/test2/test3/test4
+  263  ls
+  264  ls test1/
+  265  mdir -p -v test3/test4/test5
+  266  mkdir -p -v test3/test4/test5
+  267  mkdir -v test3
+  268  mkdir -v test4
+  269  mkdir -v test4/test5/test6
+  270  mkdir -v -p test4/test5/test6
+  271  ls 
+  272  rm -rv test*
+  273  ls
+  274  ls dir1/
+  275  rm -r dir1
+  276  dir
+  277  ls
+  278  file Pictures
+  279  ls -A
+  280  ls -a
+  281  cd ../
+  282  pwd
+  283  ls
+  284  cd ../
+  285  pwd
+  286  ls
+  287  cd Applications/
+  288  ls
+  289  cd ../
+  290  ls
+  291  ls /bin/
+  292  ls /usr/bin/
+  293  ls /
+  294  ls /Applications/
+  295  ls /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl -h
+  296  ls /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl --help
+  297  ls /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl cd 
+  298  ls /
+  299  find /Library/ -name "workflow"
+  300  find /Library/ -name "sublime"
+  301  ls Library/Workflows/Applications/Folder\ Actions/
+  302  pwd
+  303  ls ~/Library/Services/
+  304  rm -frv ~/Library/Services/Sublime.workflow/
+  305  rm -rv ~/Library/Services/Open-In-Sublime.workflow/
+  306  ln -s 
+  307  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /bin/sublime
+  308  sudo ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /bin/sublime
+  309  sudo ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /bin/sublime
+  310  su
+  311  exit
+  312  ls /bin/sublime -l
+  313  ls -l | grep sublime
+  314  ls -l /bin/ | grep sublime
+  315  sublime 
+  316  cd Repro
+  317  ls
+  318  sublime hi
+  319  ll -l
+  320  ls -l
+  321  sublime Hello\,\ world\! 
+  322  cd 
+  323  sublime .lesshst 
+  324  cd Repro/
+  325  ls -l
+  326  ls
+  327  ln -s Hello\,\ world\! a
+  328  ls -l
+  329  cat a
+  330  cat Hello\,\ world\! 
+  331  unlink a
+  332  ls -l
+  333  ls /bin/
+  334  ls /usr/bin/
+  335  ls /bin/sublime 
+  336  unlink /bin/sublime 
+  337  sudo unlink /bin/sublime 
+  338  sublime
+  339  ls
+  340  sublime Hello\,\ world\! 
+  341  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /bin/sublime
+  342  sudo ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /bin/sublime
+  343  sublime 
+  344  echo $PATH
+  345  sudo echo $PATH
+  346  sudo echo $PATH
+  347  ls 
+  348  ls 
+  349  ls 
+  350  history 
+  351  sublime 
+  352  ls
+  353  cd ..
+  354  ls
+  355  sublime Repro/
+  356  sudo ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl 
+  357  sublime
+  358  sublime
+  359  sublime
+  360  ls
+  361  cd Projects/
+  362  cd guessing_game/
+  363  ls
+  364  xcode
+  365  git
+  366  git
+  367  git
+  368  git
+  369  git status
+  370  git diff
+  371  git diff readme.txt
+  372  cd /projects
+  373  l 
+  374  ls
+  375  ls ~/projects
+  376  cd projects
+  377  pwd
+  378  cd donut_shop
+  379  pwd
+  380  git add dunut_franchise.html
+  381  cd
+  382  git status
+  383  git add donut_franchise.html
+  384  pwd
+  385  cd /projects/donut_shop
+  386  pwd
+  387  cd /projects
+  388  cd projects
+  389  cd donut_shop
+  390  pwd
+  391  git init
+  392  git add donut_franchise.html
+  393  git status
+  394  git commit-m "my first donut franchise version"
+  395  sudo git status
+  396  git commit-m "my first donut franchise version"
+  397  git init
+  398  sudo git status
+  399  git init
+  400  git add donut_franchise.html
+  401  git status
+  402  git commit -m "my first donut_franchise version"
+  403  pwd
+  404  pwd
+  405  git add donut_franchis.html
+  406   git add donut_franchise.html
+  407  git status
+  408  git add
+  409  git add donut_franchise.html
+  410  git commit
+  411  git status
+  412  git add donutshop.*
+  413  git status
+  414  git commit -m "use jQuery to create the table to present the donutshop"
+  415  git status
+  416  git log
+  417  ls
+  418  git push origin master
+  419  git status
+  420  git add donutshop.*
+  421  git status
+  422  git commit -m "Fill HTML data directly from donut shop code by using jQuery,create a menu list of donut shop location, add fades and animation to perk thing up." 
+  423  git status
+  424  git push origin master.
+  425  git push origin master
+  426  ping github.com
+  427  ping google.com
+  428  git ping github.com
+  429  ping github.com
+  430  ping github.com
+  431  git push origin master
+  432  ping github.com
+  433  git push origin master
+  434  git status
+  435  git status
+  436  cd project
+  437  cd projects
+  438  git status
+  439  cd
+  440  cd projects
+  441  ls
+  442  cd donut_shop/
+  443  git status
+  444  git shop.*
+  445  git status
+  446  git add shop.*
+  447  git status
+  448  git commit -m "Create a form to accept input and give out a report of donutshop including donutshop's information for that location."
+  449  git status
+  450  git push
+  451  git status
+  452  ls
+  453  git status
+  454  git add shop.html
+  455  git status
+  456  git commit -m "changed the position of <script> to before the closing </body> tag."
+  457  git satus
+  458  git status
+  459  git push
+  460  sublime 
+  461  git --version
+  462  git
+  463  ls
+  464  export CLICOLOR=1
+  465  ls
+  466  export LSCOLORS=GxFxCxDxBxegedabagaced
+  467  ls
+  468  vi ~/.bash
+  469  export LSICOLOR=0
+  470  ls
+  471  export CLICOLOR=0
+  472  ls
+  473  unset CLICOLOR
+  474  ls
+  475  ls -a
+  476  cat .bash
+  477  mv .bash .bashrc
+  478  source ./.bashrc
+  479  ls
+  480  ls
+  481  ls
+  482  cat .bashrc
+  483  exit
+  484  ls
+  485  source ./.bashrc 
+  486  ls
+  487  ls lanying/lanying 
+  488  ls Repro/project\ directory/project1 
+  489  ls Repro/project\ directory/ -l
+  490  ls -l Repro/project\ directory/ 
+  491  ls
+  492  source ./.bashrc 
+  493  mv .bashrc .bash_profile
+  494  cat .bash_profile 
+  495  fjlds;d
+  496  ls -alt
+  497  ls ./bin
+  498  ls /bin
+  499  cat .bash_profile
+  500  ls /bin
+  501  ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/install/master/install)"
+  502  brew doctor
+  503  brew install fish
+  504  chsh -s /usr/local/bin/fish
+  505  subl
+  506  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+  507  subl
+  508  subl ~/.config/fish/config.fish
+  509  subl ~/.config/fish/config.fish
+  510  brew install git
+  511  git --version
+  512  git config --global user.name Lanying Zhu
+  513  git config --global user.email lanying.zhu.01@gmail.com
+  514  curl -fsSL http://git.io/7UHtNA | sh
+  515  curl -fsSL http://git.io/QxUaOQ | sh
+  516  sublime
+  517  pwd
+  518  ls
+  519  pwd
+  520  cd ~/downloads/
+  521  cd ~/d
+  522  ls -t
+  523  cd ~/downloads?
+  524  cd ~/Downloads/
+  525  pwd
+  526  ls _t
+  527  ls -t
+  528  ls -rt
+  529  ls -rlt
+  530  ls -a
+  531  ls -alt
+  532  man ls
+  533  cd
+  534  cd
+  535  ls
+  536  cd
+  537  ls
+  538  ls -alt
+  539  ls rlt
+  540  ls -rlt
+  541  ls -r
+  542  ls -l
+  543  cd d*
+  544  cd d *
+  545  ls -d
+  546  cd D
+  547  ..
+  548  cd public
+  549  ls
+  550  cd ..
+  551  cd ../..
+  552  ls
+  553  pwd
+  554  cd
+  555  cd..
+  556  cd ..
+  557  pwd
+  558  ls
+  559  cd
+  560  cd ../Download/
+  561  cd
+  562  cd ..
+  563  ls ~
+  564  cd .
+  565  cd ..
+  566  ls
+  567  ls alt
+  568  ls -alt
+  569  cd ..
+  570  cd ~
+  571  history
+  572  history | less
+  573  cd history
+  574  history > moving_around.txt
+  575  ls moving_around.txt 
+  576  ls
+  577  cd moving_around.txt 
+  578  ls -t
+  579  ls -t
+  580  ls -l
+  581  ls -t | less
+  582  history >> moving_around.txt 
