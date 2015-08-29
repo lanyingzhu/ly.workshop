@@ -1,3 +1,5 @@
+#change some information
+
    75  cd
    76  cd Documents
    77  ls
@@ -37,7 +39,7 @@
   111  file document/WFG
   112  file Documents/WFG
   113  file Documents/hello/world
-  114  file Documents/hello 
+  114  file Documents/hello
   115  mkdir Repro/hi hi
   116  ls
   117  mkdir Repro/'hi hi'
@@ -69,7 +71,7 @@
   143   rmdir hi
   144  touch mimi
   145  ls
-  146  man 
+  146  man
   147  man k
   148  k
   149  man ls
@@ -178,7 +180,7 @@
   252  ls -v
   253  ls
   254  rm -v dir*
-  255  ls 
+  255  ls
   256  rmdir -v dir*
   257  rm -xv dir*
   258  rm -rv dir*
@@ -194,7 +196,7 @@
   268  mkdir -v test4
   269  mkdir -v test4/test5/test6
   270  mkdir -v -p test4/test5/test6
-  271  ls 
+  271  ls
   272  rm -rv test*
   273  ls
   274  ls dir1/
@@ -220,7 +222,7 @@
   294  ls /Applications/
   295  ls /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl -h
   296  ls /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl --help
-  297  ls /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl cd 
+  297  ls /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl cd
   298  ls /
   299  find /Library/ -name "workflow"
   300  find /Library/ -name "sublime"
@@ -229,7 +231,7 @@
   303  ls ~/Library/Services/
   304  rm -frv ~/Library/Services/Sublime.workflow/
   305  rm -rv ~/Library/Services/Open-In-Sublime.workflow/
-  306  ln -s 
+  306  ln -s
   307  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /bin/sublime
   308  sudo ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /bin/sublime
   309  sudo ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /bin/sublime
@@ -238,48 +240,48 @@
   312  ls /bin/sublime -l
   313  ls -l | grep sublime
   314  ls -l /bin/ | grep sublime
-  315  sublime 
+  315  sublime
   316  cd Repro
   317  ls
   318  sublime hi
   319  ll -l
   320  ls -l
-  321  sublime Hello\,\ world\! 
-  322  cd 
-  323  sublime .lesshst 
+  321  sublime Hello\,\ world\!
+  322  cd
+  323  sublime .lesshst
   324  cd Repro/
   325  ls -l
   326  ls
   327  ln -s Hello\,\ world\! a
   328  ls -l
   329  cat a
-  330  cat Hello\,\ world\! 
+  330  cat Hello\,\ world\!
   331  unlink a
   332  ls -l
   333  ls /bin/
   334  ls /usr/bin/
-  335  ls /bin/sublime 
-  336  unlink /bin/sublime 
-  337  sudo unlink /bin/sublime 
+  335  ls /bin/sublime
+  336  unlink /bin/sublime
+  337  sudo unlink /bin/sublime
   338  sublime
   339  ls
-  340  sublime Hello\,\ world\! 
+  340  sublime Hello\,\ world\!
   341  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /bin/sublime
   342  sudo ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /bin/sublime
-  343  sublime 
+  343  sublime
   344  echo $PATH
   345  sudo echo $PATH
   346  sudo echo $PATH
-  347  ls 
-  348  ls 
-  349  ls 
-  350  history 
-  351  sublime 
+  347  ls
+  348  ls
+  349  ls
+  350  history
+  351  sublime
   352  ls
   353  cd ..
   354  ls
   355  sublime Repro/
-  356  sudo ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl 
+  356  sudo ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl
   357  sublime
   358  sublime
   359  sublime
@@ -296,7 +298,7 @@
   370  git diff
   371  git diff readme.txt
   372  cd /projects
-  373  l 
+  373  l
   374  ls
   375  ls ~/projects
   376  cd projects
@@ -345,7 +347,7 @@
   419  git status
   420  git add donutshop.*
   421  git status
-  422  git commit -m "Fill HTML data directly from donut shop code by using jQuery,create a menu list of donut shop location, add fades and animation to perk thing up." 
+  422  git commit -m "Fill HTML data directly from donut shop code by using jQuery,create a menu list of donut shop location, add fades and animation to perk thing up."
   423  git status
   424  git push origin master.
   425  git push origin master
@@ -383,7 +385,7 @@
   457  git satus
   458  git status
   459  git push
-  460  sublime 
+  460  sublime
   461  git --version
   462  git
   463  ls
@@ -408,16 +410,16 @@
   482  cat .bashrc
   483  exit
   484  ls
-  485  source ./.bashrc 
+  485  source ./.bashrc
   486  ls
-  487  ls lanying/lanying 
-  488  ls Repro/project\ directory/project1 
+  487  ls lanying/lanying
+  488  ls Repro/project\ directory/project1
   489  ls Repro/project\ directory/ -l
-  490  ls -l Repro/project\ directory/ 
+  490  ls -l Repro/project\ directory/
   491  ls
-  492  source ./.bashrc 
+  492  source ./.bashrc
   493  mv .bashrc .bash_profile
-  494  cat .bash_profile 
+  494  cat .bash_profile
   495  fjlds;d
   496  ls -alt
   497  ls ./bin
@@ -529,7 +531,7 @@
   111  file document/WFG
   112  file Documents/WFG
   113  file Documents/hello/world
-  114  file Documents/hello 
+  114  file Documents/hello
   115  mkdir Repro/hi hi
   116  ls
   117  mkdir Repro/'hi hi'
@@ -561,7 +563,7 @@
   143   rmdir hi
   144  touch mimi
   145  ls
-  146  man 
+  146  man
   147  man k
   148  k
   149  man ls
@@ -670,7 +672,7 @@
   252  ls -v
   253  ls
   254  rm -v dir*
-  255  ls 
+  255  ls
   256  rmdir -v dir*
   257  rm -xv dir*
   258  rm -rv dir*
@@ -686,7 +688,7 @@
   268  mkdir -v test4
   269  mkdir -v test4/test5/test6
   270  mkdir -v -p test4/test5/test6
-  271  ls 
+  271  ls
   272  rm -rv test*
   273  ls
   274  ls dir1/
@@ -712,7 +714,7 @@
   294  ls /Applications/
   295  ls /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl -h
   296  ls /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl --help
-  297  ls /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl cd 
+  297  ls /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl cd
   298  ls /
   299  find /Library/ -name "workflow"
   300  find /Library/ -name "sublime"
@@ -721,7 +723,7 @@
   303  ls ~/Library/Services/
   304  rm -frv ~/Library/Services/Sublime.workflow/
   305  rm -rv ~/Library/Services/Open-In-Sublime.workflow/
-  306  ln -s 
+  306  ln -s
   307  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /bin/sublime
   308  sudo ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /bin/sublime
   309  sudo ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /bin/sublime
@@ -730,48 +732,48 @@
   312  ls /bin/sublime -l
   313  ls -l | grep sublime
   314  ls -l /bin/ | grep sublime
-  315  sublime 
+  315  sublime
   316  cd Repro
   317  ls
   318  sublime hi
   319  ll -l
   320  ls -l
-  321  sublime Hello\,\ world\! 
-  322  cd 
-  323  sublime .lesshst 
+  321  sublime Hello\,\ world\!
+  322  cd
+  323  sublime .lesshst
   324  cd Repro/
   325  ls -l
   326  ls
   327  ln -s Hello\,\ world\! a
   328  ls -l
   329  cat a
-  330  cat Hello\,\ world\! 
+  330  cat Hello\,\ world\!
   331  unlink a
   332  ls -l
   333  ls /bin/
   334  ls /usr/bin/
-  335  ls /bin/sublime 
-  336  unlink /bin/sublime 
-  337  sudo unlink /bin/sublime 
+  335  ls /bin/sublime
+  336  unlink /bin/sublime
+  337  sudo unlink /bin/sublime
   338  sublime
   339  ls
-  340  sublime Hello\,\ world\! 
+  340  sublime Hello\,\ world\!
   341  ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /bin/sublime
   342  sudo ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /bin/sublime
-  343  sublime 
+  343  sublime
   344  echo $PATH
   345  sudo echo $PATH
   346  sudo echo $PATH
-  347  ls 
-  348  ls 
-  349  ls 
-  350  history 
-  351  sublime 
+  347  ls
+  348  ls
+  349  ls
+  350  history
+  351  sublime
   352  ls
   353  cd ..
   354  ls
   355  sublime Repro/
-  356  sudo ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl 
+  356  sudo ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl
   357  sublime
   358  sublime
   359  sublime
@@ -788,7 +790,7 @@
   370  git diff
   371  git diff readme.txt
   372  cd /projects
-  373  l 
+  373  l
   374  ls
   375  ls ~/projects
   376  cd projects
@@ -837,7 +839,7 @@
   419  git status
   420  git add donutshop.*
   421  git status
-  422  git commit -m "Fill HTML data directly from donut shop code by using jQuery,create a menu list of donut shop location, add fades and animation to perk thing up." 
+  422  git commit -m "Fill HTML data directly from donut shop code by using jQuery,create a menu list of donut shop location, add fades and animation to perk thing up."
   423  git status
   424  git push origin master.
   425  git push origin master
@@ -875,7 +877,7 @@
   457  git satus
   458  git status
   459  git push
-  460  sublime 
+  460  sublime
   461  git --version
   462  git
   463  ls
@@ -900,16 +902,16 @@
   482  cat .bashrc
   483  exit
   484  ls
-  485  source ./.bashrc 
+  485  source ./.bashrc
   486  ls
-  487  ls lanying/lanying 
-  488  ls Repro/project\ directory/project1 
+  487  ls lanying/lanying
+  488  ls Repro/project\ directory/project1
   489  ls Repro/project\ directory/ -l
-  490  ls -l Repro/project\ directory/ 
+  490  ls -l Repro/project\ directory/
   491  ls
-  492  source ./.bashrc 
+  492  source ./.bashrc
   493  mv .bashrc .bash_profile
-  494  cat .bash_profile 
+  494  cat .bash_profile
   495  fjlds;d
   496  ls -alt
   497  ls ./bin
@@ -990,11 +992,11 @@
   572  history | less
   573  cd history
   574  history > moving_around.txt
-  575  ls moving_around.txt 
+  575  ls moving_around.txt
   576  ls
-  577  cd moving_around.txt 
+  577  cd moving_around.txt
   578  ls -t
   579  ls -t
   580  ls -l
   581  ls -t | less
-  582  history >> moving_around.txt 
+  582  history >> moving_around.txt
