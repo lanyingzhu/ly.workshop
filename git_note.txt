@@ -1,0 +1,12 @@
+learned git commands :
+git init- initializes a new empty git repot
+,
+git commit -m "add git notes",
+git add,
+git status,
+git log,
+git touch.
+git checkout-switches branches
+git config - set configuration values of git
+git branch - create a new branch for our repo
+git remove -v
